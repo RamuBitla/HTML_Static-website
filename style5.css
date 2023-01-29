@@ -1,0 +1,586 @@
+/* HOME PAGE */
+body{
+	overflow-x:hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.topbar 
+{
+	background-color:orange;
+	width:100%;
+	height:55px;
+}
+.mobile
+{
+	width:50%;
+	float:left;
+	padding-top:15px;
+}
+.follow
+{
+	width:50%;
+	float:right;
+	padding-top:15px;
+}
+.menubar
+{
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid orange ;
+}
+.menubar .menu {
+	width:60%;
+	float:right;
+	padding-top:23px;
+	
+}
+.menubar .logo {
+	width:40%;
+	float:left;
+
+}
+
+
+.menubar ul li 
+{
+	display:inline;
+	list-style: none;
+	padding-left:60px;
+	
+}
+.menu ul li a
+{
+	font-family: vardana;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.menu a
+{
+	color:black;
+}
+.menu a:hover {
+	color: orange;
+}
+.menu .active {
+	color: blue;
+}
+.bgimg img{
+	background-image: url("banner.jpg");
+	width:100%;
+	height:450px;
+	display:fluid;
+	position: relative;
+}
+.bgimg h2{
+	position: absolute;
+	top: 18rem;
+	left: 8rem;
+	font-size: 60px;
+	font-weight: bold;
+	color: #f8f6ff;
+	box-shadow: 3px solid black;
+}
+.elearn
+{
+	text-align: justify;
+	text-justify: inter-word;
+	line-height: 26px;
+	padding: 30px 15px 15px 40px;
+}
+
+h1 {
+  font-family: vardana;
+  margin: 30px auto;
+  color: #f57d0c;
+  text-align: center;
+  position: relative;
+}
+h1:before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  left: 300px;
+  top: 50%;
+  position: absolute;
+}
+h1:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  right: 300px;
+  top: 50%;
+  position: absolute;
+}
+.roadmap {
+	background-color: white;
+	width: 100%;
+	height: 150px;
+
+	
+	text-align: center;
+	justify-content: flex;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
+}
+
+.footer .container {
+	background-color: rgb(107, 96, 96);
+	width: 100%;
+	height: 300px;
+}
+.container {
+	position: relative;
+  	text-align: center;
+  	color: rgb(248, 244, 244);
+	padding-top: 40px;
+}
+button {
+	padding: 15px;
+	background-color: #f57d0c;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	box-shadow: none;
+	border-style: none;
+}
+.footbar
+{
+	background-color: orange;
+	width: 100%;
+	height: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: medium;
+	padding: 15px;
+	margin: 0%;
+
+}
+.left
+{
+	width:30%;
+	padding: 20px;
+	float: left;
+	text-decoration: none;
+}
+.center
+{
+	width:30%;
+	float: left;
+	padding: 20px;
+	
+}
+.right
+{
+	width: 30%;
+	float: right;
+	padding: 20px;
+	
+}
+.footbar a:hover {
+	color: rgb(235, 238, 238);
+}
+.footbar a {
+	text-decoration: none;
+	color: black;
+}
+
+/* END HOME PAGE */
+
+/* ABOUT US PAGE */
+
+.about img{
+	background-color: orange;
+	width: 100%;
+	height: 300px;
+	padding: 0px;
+}
+.aboutus
+{
+	text-align: justify;
+	text-justify: inter-word;
+	line-height: 26px;
+	padding: 20px 30px 30px 20px;
+}
+.aboutus {
+	font-family: vardana;
+	margin: 20px auto;
+	color: black;
+	text-align: left;
+	position: relative;
+	padding-left: 50px;
+  }
+  .aboutus h3:after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 2px;
+	background: #000;
+	left: 500px;
+	top: 40%;
+	position: left;
+  }
+
+
+.why h2 {
+  font-family: vardana;
+  margin: 20px auto;
+  color: orange;
+  text-align: left;
+  position: relative;
+  padding-left: 40px;
+}
+.why h2:before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #000;
+  left: 600px;
+  top: 40%;
+  position: left;
+}
+.why h2:after {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background: #000;
+  right: 500px;
+  top: 40%;
+  position: left;
+}
+.why ul li
+{
+	padding: 8px;
+}
+.what
+{
+	background-color: rgb(226, 226, 226);
+	width: 100%;
+	height: 400px;
+	padding: 15px;
+	margin: 0px;
+}
+.what h3 {
+	font-family: vardana;
+	margin: 20px auto;
+	color: black;
+	text-align: center;
+	position: relative;
+	padding-left: 50px;
+  }
+  .what h3:before {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 2px;
+	background: #000;
+	left: 500px;
+	top: 40%;
+	position: absolute;
+  }
+  .what h3:after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 2px;
+	background: #000;
+	right: 450px;
+	top: 40%;
+	position: absolute;
+  }
+  .what .left
+{
+	width: 30%;
+	float: left;
+	padding: 20px;
+}
+.what .center
+{
+	width: 30%;
+	float: left;
+	padding: 20px;
+}
+.what .right
+{
+	width: 30%;
+	float: right;
+	padding: 20px;
+}
+.left img{
+	width: 100px;
+	height: 100px;
+}
+.center img{
+	width: 100px;
+	height: 100px;
+}
+.right img{
+	width: 100px;
+	height: 100px;
+}
+.details{
+	background-color: #e48d3c;
+	width: 100%;
+	height: 300px;
+	padding-top: 50px;
+	margin: 0%;
+	
+}
+.details .first-box {
+	float: left;
+	width: 25%;
+	height: 250px;
+	
+}
+.details .second-box {
+	float: left;
+	width: 25%;
+	height: 250px;	
+}
+
+.details .third-box {
+	float: left;
+	width: 25%;
+	height: 250px;	
+	
+}
+.details .fourth-box{
+	float: right;
+	width: 25%;
+	height: 250px;
+
+}
+
+.details  a{
+	text-decoration: none;
+	color: black;
+}
+.details a:hover{
+	color: blue;
+}
+
+/* END ABOUT US PAGE */
+
+/* COURSES */
+.courses{
+	background-color: rgb(248, 246, 244);
+	width: 100%;
+	height: 680px;
+	padding: 55px;
+}
+.courimg img{
+	width: 100%;
+	height: 200px;
+}
+.courses img{
+	width: 250px;
+	height: 150px;
+
+
+}
+.courses a{
+	text-decoration: none;
+	color: black;
+}
+.courses .first{
+	width: 25%;
+	float: left;
+}
+.courses .second{
+	width: 25%;
+	float: left;
+}
+.courses .third{
+	width: 25%;
+	float: left;
+}
+.courses .fourth{
+	width: 25%;
+	float: right;
+}
+.courses .fifth{
+	width: 25%;
+	float: left;
+}
+.courses .sixth{
+	width: 25%;
+	float: left;
+}
+.courses .seventh{
+	width: 25%;
+	float: left;
+}
+.courses .eighth{
+	width: 25%;
+	float: right;
+}
+.courses .nineth{
+	width: 25%;
+	float: left;
+}
+.courses .tenth{
+	width: 25%;
+	float: left;
+}
+.courses .eleventh{
+	float: right;
+	width: 25%;
+	
+}
+.courses .last-box{
+	float: left;
+	width: 25%;
+	
+}
+
+/* CONTACT PAGE */
+.contact-banner img{
+	width: 100%;
+	height: 250px;
+}
+.contactform{
+	background-color: rgb(219, 243, 243);
+	margin: auto;
+	width: 100%;
+	height: 450px;
+	padding-top: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+form{
+	width: 60%;
+	float: left;
+	border: 4px solid orange;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+*{box-sizing: border-box;}
+input[type=text], select, textarea {
+	width: 90%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: horizontal;
+}
+input[type=email] {
+	width: 80%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: horizontal;
+}
+input[type=submit] {
+	background-color: blue;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  input[type=submit]:hover {
+	background-color: orange;
+  }
+  .contact-box{
+	width: 40%;
+	height: 381px;
+	float: left;
+	border: 4px solid orange;
+
+
+  }
+  .contact-box a
+  {
+	text-decoration: none;
+	color: black;
+  }
+  .contact-box a:hover {
+		color: #f57d0c;
+  }
+
+  /* REGISTRATION */
+.registration{
+	width: 100%;
+	height: 650px;
+	padding: 40px;
+
+}
+.rigister-form{
+	background-color: #777471;
+	width: 60%;
+	float: left;
+	padding: 40px;
+
+}
+.registration .left{
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+.registration .right{
+	width: 40%;
+	float: left;
+	padding: 10px;
+}
+.registration .left-side{
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+.registration .right-side{
+	width: 50%;
+	float:right;
+	padding: 10px;
+}
+.registration .left-box{
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+.registration .right-box{
+	width: 45%;
+	float: left;
+	padding: 10px;
+}
+.registration .form-group{
+	width: 100%;
+	float: left;
+}
+.registration .form-button{
+	width: 50%;
+	float: right;
+}
+.registration .right-img{
+	padding-left: 50px;
+	width: 40%;
+	float: left;
+}
+.registration .right-img img{
+	width: 400px;
+	height: 500px;
+
+}
+.registration-banner img{
+	width: 100%;
+	height: 100px;
+}
+.elearn h3{
+	text-align: center;
+}
+
